@@ -1,0 +1,86 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h2,
+h3 {
+    color: #444;
+    font-weight: 500;
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+.my-30 {
+    margin: 30px auto;
+}
+.paragraph {
+    line-height: 1.7em;
+    color: #333;
+    font-weight: 400;
+}
+
+/* HEADER */
+.nav-menu {
+    border-bottom: 1px solid #888;
+    padding: 0;
+}
+header {
+    padding: 10px 20px;
+}
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 23px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #888;
+    font-weight: 400;
+}
+
+header ul li a.active {
+    color: rgb(30, 104, 215);
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(30, 104, 215);
+}
+
+
+
+/* LISTE */
+ol {
+    list-style-type: decimal;
+    padding: 0 0 0 24px;
+    margin: 0;
+}
+
+ol>li {
+    padding-left: 20px;
+}
+
+li>ol {
+    list-style-type: lower-alpha;
+    padding-left: 30px;
+}
